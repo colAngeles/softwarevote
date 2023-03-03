@@ -1,0 +1,12 @@
+.nav-link {
+    display: flex;
+    text-decoration: none;
+    color: #000;
+}
+.nav-link:active {
+    color: #f7901e;
+}
+.nav-link .menu-item-p {
+    position: relative;
+    margin: 0;
+}

@@ -1,0 +1,25 @@
+section {
+    background-color: #162f54;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000045;
+} 
+    main > .form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 350px;
+        min-height: 450px;
+        background-color: rgb(228, 228, 228);
+        border: 1px solid #28559A;
+        border-radius: 10px;
+    }
+     .form-container > h1 {
+        color: #162f54;
+     }

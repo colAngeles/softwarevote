@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Futura LtCn BT';
+    src: url('../fonts/FuturaBT-LightCondensed.woff2') format('woff2');
+    font-weight:         300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'FuturaBT';
+    src: url('../fonts/FuturaBT-BoldCondensed.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+:root {
+    --height-header: 4rem;
+    --primary-color: #1B3764;
+    --secondary-color: #162F54;
+    --alternative-color: #F7901E;
+    --transparent-color: #00000075;
+}
+html {
+    min-width: 300px;
+    scroll-behavior: smooth;
+}
+body {
+    min-width: 300px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    background-color: transparent;    
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    height:100px;
+    width: 10px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+    background-color: #00000075;
+}
+::-webkit-scrollbar-thumb:active {
+    transform: scale(1);
+    border: 1px solid var(--secondary-color);
+}
+
+:root {
+    --primary-color: #162f54;
+    --secondary-color: #F7901E;
+    --third-color: #3B3B3B;
+}
+.card-container {
+    width: 30%;
+    height: 30%;
+    border-radius: 20%;
+    position: relative;
+    background-color: transparent;
+}
+.css-2gftvx {
+    color: rgb(158, 163, 169) !important;
+    border: 1px solid rgba(156, 163, 175, 0.23)!important;
+}
+
+.css-2gftvx.Mui-selected {
+    border: 1px solid rgba(247, 144, 30, 0.4) !important;
+}
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root {
+    color: inherit !important;
+}
+.css-16y9h98 {
+    color: #fff !important;
+}
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+        color: #1976d2;
+        border: 1px solid rgba(25, 118, 210, 0.5);
+        background-color: rgba(25, 118, 210, 0.12);
+}
+
+@keyframes mic {
+    0% {
+      font-size: 1.5rem;
+    }
+    50% {
+     font-size: 2rem;
+    }
+    100% {
+        font-size: 1.5rem;
+    }
+ } 
+ 

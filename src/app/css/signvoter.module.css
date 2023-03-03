@@ -1,0 +1,15 @@
+.main {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-image: url('../../public/media/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

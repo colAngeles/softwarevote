@@ -1,0 +1,23 @@
+.image-container {
+    cursor: pointer; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: 2px dashed rgb(178, 186, 194); 
+    margin-right: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+.image-container:hover {
+    background-color: #e8e8e8;
+    font-size: 2rem;
+}
+.icons-container {
+    position: absolute;
+    bottom: 35%;
+    right: 10px;
+    z-index: 10;
+    color: #fff;
+}
